@@ -66,8 +66,8 @@ See more at http://blog.squix.ch
 const int UPDATE_INTERVAL_SECS = 5 * 60; // Update every 60 minutes
 #define UPDATE_DHT_INTERVAL_SECS 3 * 60 // Update DHT every x mins
 
-#define SSID "machakos"
-#define PASSWORD "#0439080762#"
+#define SSID "########"
+#define PASSWORD "##########"
 
 #ifdef spiOLED
 // Pin definitions for SPI OLED
@@ -163,21 +163,21 @@ struct dstRule EndRule = {"AEST", First, Sun, Apr, 2, 0};      // Australia East
 
 // Wunderground Settings
 const boolean IS_METRIC = true;
-const String WUNDERGRROUND_API_KEY = "4d8481ff662e2d07";
+const String WUNDERGRROUND_API_KEY = "############";
 const String WUNDERGRROUND_LANGUAGE = "EN";
 const String WUNDERGROUND_COUNTRY = "AU";
 const String WUNDERGROUND_CITY = "Sydney";
 #endif
 
 //Thingspeak Settings using Sensor 6 - Side Deck
-const String THINGSPEAK_CHANNEL_ID = "294484";
-const String THINGSPEAK_API_READ_KEY = "DLBZRS1W9WYYBP5P";
+const String THINGSPEAK_CHANNEL_ID = "#######";
+const String THINGSPEAK_API_READ_KEY = "###########";
 
 //
 //Thingspeak Channel to Write DHT22 sensor data to 
 //
 const char* host = "api.thingspeak.com";
-const char* THINGSPEAK_API_WRITE_KEY = "06XIG21H6JESKGHB";
+const char* THINGSPEAK_API_WRITE_KEY = "##########";
 
 #ifdef spiOLED
 SSD1306Spi display(OLED_RESET, OLED_DC, OLED_CS);  // SPI OLED
